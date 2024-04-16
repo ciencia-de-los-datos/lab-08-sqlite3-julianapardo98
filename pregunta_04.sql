@@ -40,3 +40,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+-- SUBSTRING(cadena text, posicion, longitud desde esa posiciopn)
+SELECT K0, c16
+FROM tbl1
+WHERE K0 = SUBSTRING(c16, 1, 1)
